@@ -56,14 +56,73 @@
       <p class="text-[#183B4E] text-lg leading-relaxed font-normal mb-5">
         Farros memiliki rekam jejak kepemimpinan lengkap sejak masa kecil. Ia dikenal sebagai sosok yang memiliki integritas, amanah, cerdas, dan berani. Farros memiliki kemampuan membuat perubahan, inovatif, memimpin di saat krisis, dan bisa membuat kebijakan yang tepat serta cepat. Menjiwai persoalan di akar rumput rakyat dan menguasai medan di arena percaturan dunia.
       </p>
-      <a href="#" class="inline-flex items-center text-[#27548A] font-semibold hover:text-[#DDA853] transition">
+      <!-- <a href="#" class="inline-flex items-center text-[#27548A] font-semibold hover:text-[#DDA853] transition">
         Lihat Selengkapnya
         <svg class="ml-1 w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
-      </a>
+      </a> -->
     </div>
   </section>
+
+  <!-- ====== Tulisan ====== -->
+<section class="w-full bg-[#F3F3E0] py-16">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 text-center">
+    <!-- Heading -->
+    <div class="flex items-center justify-center gap-2 mb-4">
+      <div class="w-2 h-3 bg-[#DDA853] rounded-sm"></div>
+      <div class="w-2 h-2 bg-[#DDA853] rounded-sm"></div>
+    </div>
+    <h2 class="text-3xl md:text-4xl font-extrabold text-[#183B4E] mb-10">Tulisan</h2>
+    <!-- Card container -->
+    <div class="relative flex justify-center">
+      <div id="cardContainer" class="flex overflow-x-auto max-w-2xl snap-x snap-mandatory gap-6 scrollbar-hide pb-6 -mx-4 px-4 scroll-smooth" role="region" aria-label="Artikel carousel">
+        <!-- Artikel 1 -->
+        <div class="min-w-[240px] flex-shrink-0 bg-white rounded-2xl shadow-md p-6 text-left hover:shadow-lg transition-shadow duration-300 snap-center" role="group" aria-label="Artikel 1">
+          <a href="https://www.kompasiana.com/ahmadfarros0695/669603dfc925c4530219da73/meningkatkan-daya-tarik-pesantren-dengan-pendekatan-modern" target="_blank" class="block p-4 bg-white border rounded-xl shadow hover:shadow-md hover:bg-gray-50 transition-all duration-300 max-w-xl mx-auto">
+            <h3 class="text-xl font-bold text-[#27548A] mb-2">Meningkatkan Daya Tarik Pesantren dengan Pendekatan Modern</h3>
+            <p class="text-sm text-gray-600 leading-relaxed">
+              Bagaimana pesantren tetap diminati generasi sekarang? Temukan strategi dan pendekatan modern agar pesantren makin relevan di era digital.
+            </p>
+          </a>
+        </div>
+        <!-- Artikel 2 -->
+        <div class="min-w-[240px] flex-shrink-0 bg-white rounded-2xl shadow-md p-6 text-left hover:shadow-lg transition-shadow duration-300 snap-center" role="group" aria-label="Artikel 2">
+          <a href="https://www.kompasiana.com/ahmadfarros0695/657fbf37de948f559b48b0c2/perbedaan-antara-seorang-muslim-dan-seorang-kafir-adalah-sholat" target="_blank" class="block p-4 bg-white border rounded-xl shadow hover:shadow-md hover:bg-gray-50 transition-all duration-300 max-w-xl mx-auto">
+            <h3 class="text-xl font-bold text-[#27548A] mb-2">Perbedaan antara Seorang Muslim dan Seorang Kafir adalah Sholat</h3>
+            <p class="text-sm text-gray-600 leading-relaxed">
+              Refleksi tentang makna sholat sebagai pembeda hakiki antara muslim dan kafir. Simak dalil, pesan, dan hikmah sholat dalam kehidupan sehari-hari.
+            </p>
+          </a>
+        </div>
+        <!-- Artikel 3 -->
+        <div class="min-w-[240px] flex-shrink-0 bg-white rounded-2xl shadow-md p-6 text-left hover:shadow-lg transition-shadow duration-300 snap-center" role="group" aria-label="Artikel 3">
+          <a href="https://www.kompasiana.com/ahmadfarros0695/657d8986c57afb2e365b8ce2/sebaik-baiknya-amalan-adalah-melaksanakan-sholat-di-awal-waktu" target="_blank" class="block p-4 bg-white border rounded-xl shadow hover:shadow-md hover:bg-gray-50 transition-all duration-300 max-w-xl mx-auto">
+            <h3 class="text-xl font-bold text-[#27548A] mb-2">Sebaik-baiknya Amalan adalah Melaksanakan Sholat di Awal Waktu</h3>
+            <p class="text-sm text-gray-600 leading-relaxed">
+              Ulasan keutamaan sholat di awal waktu dan pengaruhnya terhadap kualitas hidup serta kedisiplinan umat muslim.
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Arrows -->
+    <div class="flex justify-center gap-4 mt-8">
+      <button id="prevButton" class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-blue-600 text-blue-600 hover:bg-blue-100 transition-all duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed" aria-label="Artikel sebelumnya">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+        </svg>
+      </button>
+      <button id="nextButton" class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-blue-600 text-blue-600 hover:bg-blue-100 transition-all duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed" aria-label="Artikel selanjutnya">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+
 
   <!-- ====== Keluarga ====== -->
   <div>
