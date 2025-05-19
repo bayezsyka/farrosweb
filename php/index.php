@@ -52,8 +52,20 @@
       </a>
     </div>
   </section>
+  
+<div>
+    <div class="flex items-center justify-center gap-2 mb-4">
+    <div class="w-2 h-3 bg-[#DDA853] rounded-sm"></div>
+    <div class="w-2 h-2 bg-[#DDA853] rounded-sm"></div>
+</div>
+<h2 class="text-3xl md:text-4xl text-center font-extrabold text-[#183B4E] mb-10">Keluarga</h2>
+<div class="flex items-center justify-center">
+    <img class="h-auto max-w-xl transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://i.imgur.com/v82brms.jpeg" alt="Foto Farros dari Imgur">
+</div>
 
+  <!-- Section Latest -->
   <?php include "section/latest.php" ?>
+
 
 
 <?php include "partials/footer.php" ?>

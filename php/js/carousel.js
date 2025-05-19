@@ -1,4 +1,5 @@
-const cardContainer = document.getElementById('cardContainer');
+
+    const cardContainer = document.getElementById('cardContainer');
     const prevButton = document.getElementById('prevButton');
     const nextButton = document.getElementById('nextButton');
     const cards = cardContainer.querySelectorAll('[role="group"]');
@@ -38,9 +39,5 @@ const cardContainer = document.getElementById('cardContainer');
         scrollToCard(currentIndex + 1);
       }
     });
-
-    // Initialize button states
     updateButtons();
-
-    // Ensure container is focusable for keyboard navigation
     cardContainer.tabIndex = 0;
