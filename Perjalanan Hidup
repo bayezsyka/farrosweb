@@ -1,0 +1,120 @@
+<section class="bg-[#F3F3E0] py-12">
+  <style>
+    .photo-hover-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .photo-hover-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .photo-hover-container:hover .photo-hover-overlay {
+      opacity: 1;
+    }
+
+    .photo-hover-text {
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    .photo-hover-date {
+      font-size: 0.875rem;
+      margin-top: 0.5rem;
+    }
+  </style>
+  <div class="flex items-center justify-center gap-2 mb-4">
+    <div class="w-2 h-3 bg-[#DDA853] rounded-sm"></div>
+    <div class="w-2 h-2 bg-[#DDA853] rounded-sm"></div>
+  </div>
+  <h2 class="text-2xl text-center sm:text-3xl md:text-4xl font-extrabold text-[#183B4E] mb-6 sm:mb-10">Perjalanan Hidup</h2>
+  <div class="max-w-2xl mx-auto grid grid-cols-2 md:grid-cols-2 gap-6">
+    <!-- Kolom 1 -->
+    <div>
+      <!-- Foto: Masa Kecil di Brebes -->
+      <div class="relative overflow-hidden h-44 md:h-52 mb-4 group">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Masa Kecil" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <p class="text-white text-lg font-semibold">Masa Kecil di Brebes</p>
+          <p class="text-white text-sm mt-1">2005–2017</p>
+        </div>
+      </div>
+      <div class="mt-2">
+        <h3 class="text-2xl font-light mb-2">Awal Pendidikan & Karakter</h3>
+        <p class="text-base leading-relaxed text-gray-700">
+          Tumbuh besar di lingkungan pesantren Al-Anwar Pakijangan, saya memulai pendidikan dari TK Pertiwi dan SDN 1 Pakijangan, lalu SMPN 2 Brebes. Nilai-nilai religius dan disiplin sangat membentuk karakter saya sejak kecil.
+        </p>
+      </div>
+
+      <!-- Foto: Eksperimen Komputer -->
+      <div class="relative overflow-hidden h-44 md:h-52 mt-8 mb-4 group">
+        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437f0" alt="Eksperimen Komputer" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <p class="text-white text-lg font-semibold">Awal Minat Teknologi</p>
+          <p class="text-white text-sm mt-1">Sejak SD</p>
+        </div>
+      </div>
+      <div class="mt-2">
+        <h3 class="text-2xl font-light mb-2">Merakit & Membongkar</h3>
+        <p class="text-base leading-relaxed text-gray-700">
+          Sejak kelas 3 SD, saya mulai merakit dan membongkar komputer. Pernah mengalami insiden kecil, namun justru semakin memupuk minat saya dalam dunia teknologi dan perakitan perangkat.
+        </p>
+      </div>
+    </div>
+
+    <!-- Kolom 2 -->
+    <div>
+      <div>
+        <h3 class="text-3xl font-light mb-2">Pendidikan Tinggi & Organisasi</h3>
+        <p class="text-base leading-relaxed text-gray-700">
+          Setelah menyelesaikan pendidikan di MAN 1 dan SMAN 1 Brebes, saya melanjutkan studi ke Teknik Komputer UNDIP dan mengambil double degree di Manajemen UBS Tegal. Aktif di HIMASKOM, rohis, dan dipercaya sebagai Ketua PKKMB 2024.
+        </p>
+      </div>
+
+      <!-- Foto: Tim PKKMB UNDIP -->
+      <div class="relative overflow-hidden h-44 md:h-52 mt-8 mb-4 group">
+        <img src="https://images.unsplash.com/photo-1603816240346-b82d21cf3d25" alt="PKKMB" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <p class="text-white text-lg font-semibold">Ketua PKKMB UNDIP</p>
+          <p class="text-white text-sm mt-1">2024</p>
+        </div>
+      </div>
+      <div class="mt-2">
+        <h3 class="text-2xl font-light mb-2">Kepemimpinan & Kontribusi</h3>
+        <p class="text-base leading-relaxed text-gray-700">
+          Menjadi Ketua PKKMB Teknik Komputer UNDIP adalah tonggak penting dalam perjalanan kepemimpinan saya, memperkuat nilai tanggung jawab dan koordinasi dalam skala besar.
+        </p>
+      </div>
+
+      <!-- Foto: Pendirian SMP Pesantren -->
+      <div class="relative overflow-hidden h-44 md:h-52 mt-8 group">
+        <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc" alt="SMP Pesantren" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <p class="text-white text-lg font-semibold">Ketua Tim Pendirian SMP</p>
+          <p class="text-white text-sm mt-1">Januari 2025</p>
+        </div>
+      </div>
+      <div class="mt-2">
+        <h3 class="text-2xl font-light mb-2">Kontribusi Pendidikan</h3>
+        <p class="text-base leading-relaxed text-gray-700">
+          Ditunjuk sebagai Ketua Tim Pendirian SMP di Pondok Pesantren Al-Anwar adalah bentuk nyata dedikasi saya dalam dunia pendidikan, sebuah impian sejak lama untuk turut membangun generasi.
+        </p>
+      </div>
+    </div>
+  </div>
+</section> 
